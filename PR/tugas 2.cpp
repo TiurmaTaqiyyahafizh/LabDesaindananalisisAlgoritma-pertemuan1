@@ -31,6 +31,7 @@ int main (){
     cout << endl;
     cout << endl;
     //pengurutan data
+	// Discending
     for(int i = 0;i < n-1; i++){
 		int s = i;
 		int q = x[i];
@@ -57,7 +58,34 @@ int main (){
 	for(int i = 0; i <n; i ++){
 		cout<<x[i]<<" ";
 	}
-	
+
+	//Ascending
+	/*
+	for (int a =0;a<n;a++){
+		temp = x[a];
+		pos = a;
+		for (int b = 0; b<n;b++){
+			if (x[b] < temp){
+				temp = x[b];
+				pos = b;
+			}
+		}
+		x[pos]= x[a];
+		x[a]=temp;
+		
+		cout << endl;
+		cout << a << " : ";
+		for (int c = 0; c<n; c++){
+			cout << x[c]<< " ";
+		}
+	}
+	cout << endl;
+	cout << endl;
+	cout << "data setelah di sorting :";
+	for (int d=0; d<n; d++){
+		cout <<x[d]<< " ";
+	}
+	*/
 }
 
 
